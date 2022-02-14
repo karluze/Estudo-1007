@@ -1,12 +1,24 @@
 ﻿using System;
 
-namespace _1007
-{
-    class Program
+    namespace _1007
     {
-        static void Main(string[] args)
+        class Program
         {
-            Console.WriteLine("Hello World!");
+            static void Main(string[] args)
+            {
+                int A, B, C, D, resultado;
+
+                A = int.Parse(Console.ReadLine());
+                B = int.Parse(Console.ReadLine());
+                C = int.Parse(Console.ReadLine());
+                D = int.Parse(Console.ReadLine());
+
+                resultado = A * B - C * D;
+
+                Console.WriteLine("DIFERENCA = " + resultado);
+
+
+                // Console.ReadLine();
+            }
         }
     }
-}
